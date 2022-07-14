@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A692BE04-BD0A-47F5-A70C-84C9248A98E6}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="sghspd" Key="{41762C07-1BE0-4A5A-88EA-B436518D0A36}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="sghspd" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="FSgh" Key="{171E580E-E828-4FA4-BBDC-DF02FA9344C7}">
+								<Image FileName="646720588" Left="-8" Top="-8" Right="1374" Bottom="776" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TFSgh" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="FSgh" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="pnlMenu" Key="{2F21E233-928B-4B5A-8B7D-026966BBBEE4}">
+										<Image FileName="646720588" Left="2" Top="75" Right="1440" Bottom="717" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="pnlMenu" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="pnlMenu13" Key="{28098A73-D295-4FC4-BDDF-AFD1A37A1087}">
+												<Image FileName="646720588" Left="1210" Top="400" Right="1320" Bottom="490" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="pnlMenu13" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="imgMenu13" Key="{EFE0869E-BBDA-47EE-80B5-7E6AF0935521}">
+														<Image FileName="646720588" Left="1211" Top="401" Right="1319" Bottom="459" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TImage" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="imgMenu13" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="frmSGHPermissoes" Key="{6831DFAF-078F-4934-A3E4-65A0C13BDE92}">
+								<Image FileName="-1832892640" Left="0" Top="0" Right="541" Bottom="696" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TfrmSGHPermissoes" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="frmSGHPermissoes" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="gbxModulos" Key="{A58ACB00-F0DF-4316-A95B-1E69DA3AFC01}">
+										<Image FileName="729960361" Left="3" Top="26" Right="538" Bottom="82" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TGroupBox" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="gbxModulos" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="cbxModulos" Key="{0129F4F3-8387-4C05-ACEE-6300057F60FF}">
+												<Image FileName="729960361" Left="17" Top="48" Right="522" Bottom="71" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TComboBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="cbxModulos" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{3C7DEE3E-9875-4BC4-9A44-B67A8A1D20F6}">
+														<Image FileName="729960361" Left="20" Top="51" Right="502" Bottom="68" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="sbtnPapelPermissao" Key="{811EA06C-1C38-49F6-B1A3-9E7AF8BA7E19}">
+										<Image FileName="-646630457" Left="7" Top="147" Right="46" Bottom="224" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TSpeedButton" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="sbtnPapelPermissao" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="w_GB_Grid" Key="{02364929-272D-4424-88C4-137CB1B6E619}">
+										<Image FileName="-1832892640" Left="3" Top="143" Right="538" Bottom="634" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="w_GB_Grid" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="jvctvOpcoesSistema" Key="{ECF27916-0B62-4E2B-A4C0-FB1A1BFD0990}">
+												<Image FileName="-1832892640" Left="49" Top="144" Right="492" Bottom="633" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TJvCheckTreeView" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="jvctvOpcoesSistema" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="sbtnComprimir" Key="{6DE688A7-7CCE-4C83-801C-9016A7F97E12}">
+										<Image FileName="-2108746803" Left="495" Top="231" Right="534" Bottom="291" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TSpeedButton" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="sbtnComprimir" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="w_Panel_Botoes" Key="{AB851EE9-55F8-44F3-BA1F-94F7A0B097EC}">
+										<Image FileName="-243553282" Left="3" Top="651" Right="538" Bottom="693" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="w_Panel_Botoes" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="w_Gravar" Key="{BF29A0B3-01D0-40F0-B32D-CE177619CE25}">
+												<Image FileName="-243553282" Left="24" Top="659" Right="147" Bottom="684" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TBitBtn" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="w_Gravar" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="FPesquisaPapel" Key="{82977F9C-AAF7-447E-A277-87A970E94B57}">
+								<Image FileName="-495232170" Left="0" Top="0" Right="511" Bottom="384" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TFPesquisaPapel" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="FPesquisaPapel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="w_GB_Resultados" Key="{E0289B28-EEDA-4A2A-9BBF-8964A633A652}">
+										<Image FileName="-495232170" Left="3" Top="75" Right="508" Bottom="339" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TFormatedGroupBox" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="w_GB_Resultados" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DBGrid" Key="{BA9EB67C-5821-47A2-8057-9C41FDA3DA1F}">
+												<Image FileName="-495232170" Left="5" Top="92" Right="506" Bottom="337" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TPaintedDBGrid" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="DBGrid" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="sghpep" Key="{24DD969D-7C7D-4B08-9211-CEC6B1CA7AC7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="sghpep" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgInforma_o" Key="{E59D3DFE-1BC8-4623-8AFA-4CDF28EE3A14}">
+								<Image FileName="348592701" Left="0" Top="0" Right="366" Bottom="130" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Informação" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="Prlogoff" Key="{B19047C2-D705-44B1-99AA-713D05778699}">
+								<Image FileName="480869886" Left="0" Top="0" Right="1366" Bottom="768" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TPrlogoff" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Prlogoff" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="pnlLogin" Key="{A7E37CB2-A29B-4CD6-9F40-0C9590478BEE}">
+										<Image FileName="480869886" Left="465" Top="293" Right="900" Bottom="474" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="pnlLogin" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="edtSenha" Key="{5600E192-61BF-4F24-81B8-FB8790E3029E}">
+												<Image FileName="480869886" Left="533" Top="399" Right="861" Bottom="420" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TLabeledEdit" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="edtSenha" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PrFormPadrao_9" Key="{23907731-7218-436F-8EF9-48BE31545876}">
+								<Image FileName="1510952200" Left="0" Top="0" Right="1499" Bottom="652" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TPrFormPadrao" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="PrFormPadrao_9" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TScrollBox" Key="{15E2E2EB-D1E9-4D50-BE81-B266A630927E}">
+										<Image FileName="1510952200" Left="8" Top="72" Right="1491" Bottom="603" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TScrollBox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TPanel" Key="{A1E1AF38-7313-44B9-9DAE-92D484E3DA54}">
+												<Image FileName="1510952200" Left="10" Top="149" Right="1472" Bottom="194" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TPanel" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="21" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TPanel" Key="{E4F7DB56-7D71-409C-B214-43E755B32CF3}">
+														<Image FileName="1510952200" Left="76" Top="149" Right="203" Bottom="194" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TPanel" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TSghComboBox" Key="{FBBE465B-1CE2-4168-BEB7-72131CBAE29F}">
+																<Image FileName="1510952200" Left="79" Top="167" Right="197" Bottom="189" />
+																<TypeInfo Item0="{A916A89D-990D-4CC3-917F-3FEE45EA95F4}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="TSghComboBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="PrFormPadrao_10" Key="{F6C4303A-3191-4641-88F3-CDFB681CAE5A}">
+								<Image FileName="1079490199" Left="0" Top="0" Right="1499" Bottom="652" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TPrFormPadrao" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="PrFormPadrao_10" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TScrollBox" Key="{C7CB3BB4-ABB6-48F4-A9DE-C007370E48FC}">
+										<Image FileName="1079490199" Left="8" Top="72" Right="1491" Bottom="603" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="TScrollBox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TPanel" Key="{54BD2DAE-B816-4A56-B1BE-DA59334A83D5}">
+												<Image FileName="1079490199" Left="10" Top="149" Right="1472" Bottom="194" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="TPanel" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="21" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TPanel" Key="{D38D6C18-6058-4C62-B5C5-F7B0D9824E9B}">
+														<Image FileName="1079490199" Left="76" Top="149" Right="203" Bottom="194" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="TPanel" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="6" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TSghComboBox" Key="{2F0DBD3B-39C5-4044-B07D-7B2AB4F66DD0}">
+																<Image FileName="1079490199" Left="79" Top="167" Right="197" Bottom="189" />
+																<TypeInfo Item0="{A916A89D-990D-4CC3-917F-3FEE45EA95F4}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="TSghComboBox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="sghspd" Owner="{41762C07-1BE0-4A5A-88EA-B436518D0A36}">
+			<Child Name="FSgh" Owner="{171E580E-E828-4FA4-BBDC-DF02FA9344C7}">
+				<Child Name="pnlMenu" Owner="{2F21E233-928B-4B5A-8B7D-026966BBBEE4}">
+					<Child Name="pnlMenu13" Owner="{28098A73-D295-4FC4-BDDF-AFD1A37A1087}">
+						<Child Name="imgMenu13" Owner="{EFE0869E-BBDA-47EE-80B5-7E6AF0935521}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="frmSGHPermissoes" Owner="{6831DFAF-078F-4934-A3E4-65A0C13BDE92}">
+				<Child Name="gbxModulos" Owner="{A58ACB00-F0DF-4316-A95B-1E69DA3AFC01}">
+					<Child Name="cbxModulos" Owner="{0129F4F3-8387-4C05-ACEE-6300057F60FF}">
+						<Child Name="Edit" Owner="{3C7DEE3E-9875-4BC4-9A44-B67A8A1D20F6}" />
+					</Child>
+				</Child>
+				<Child Name="sbtnPapelPermissao" Owner="{811EA06C-1C38-49F6-B1A3-9E7AF8BA7E19}" />
+				<Child Name="w_GB_Grid" Owner="{02364929-272D-4424-88C4-137CB1B6E619}">
+					<Child Name="jvctvOpcoesSistema" Owner="{ECF27916-0B62-4E2B-A4C0-FB1A1BFD0990}" />
+				</Child>
+				<Child Name="sbtnComprimir" Owner="{6DE688A7-7CCE-4C83-801C-9016A7F97E12}" />
+				<Child Name="w_Panel_Botoes" Owner="{AB851EE9-55F8-44F3-BA1F-94F7A0B097EC}">
+					<Child Name="w_Gravar" Owner="{BF29A0B3-01D0-40F0-B32D-CE177619CE25}" />
+				</Child>
+			</Child>
+			<Child Name="FPesquisaPapel" Owner="{82977F9C-AAF7-447E-A277-87A970E94B57}">
+				<Child Name="w_GB_Resultados" Owner="{E0289B28-EEDA-4A2A-9BBF-8964A633A652}">
+					<Child Name="DBGrid" Owner="{BA9EB67C-5821-47A2-8057-9C41FDA3DA1F}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="sghpep" Owner="{24DD969D-7C7D-4B08-9211-CEC6B1CA7AC7}">
+			<Child Name="dlgInforma_o" Owner="{E59D3DFE-1BC8-4623-8AFA-4CDF28EE3A14}" />
+			<Child Name="Prlogoff" Owner="{B19047C2-D705-44B1-99AA-713D05778699}">
+				<Child Name="pnlLogin" Owner="{A7E37CB2-A29B-4CD6-9F40-0C9590478BEE}">
+					<Child Name="edtSenha" Owner="{5600E192-61BF-4F24-81B8-FB8790E3029E}" />
+				</Child>
+			</Child>
+			<Child Name="PrFormPadrao_9" Owner="{23907731-7218-436F-8EF9-48BE31545876}">
+				<Child Name="TScrollBox" Owner="{15E2E2EB-D1E9-4D50-BE81-B266A630927E}">
+					<Child Name="TPanel" Owner="{A1E1AF38-7313-44B9-9DAE-92D484E3DA54}">
+						<Child Name="TPanel" Owner="{E4F7DB56-7D71-409C-B214-43E755B32CF3}">
+							<Child Name="TSghComboBox" Owner="{FBBE465B-1CE2-4168-BEB7-72131CBAE29F}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="PrFormPadrao_10" Owner="{F6C4303A-3191-4641-88F3-CDFB681CAE5A}">
+				<Child Name="TScrollBox" Owner="{C7CB3BB4-ABB6-48F4-A9DE-C007370E48FC}">
+					<Child Name="TPanel" Owner="{54BD2DAE-B816-4A56-B1BE-DA59334A83D5}">
+						<Child Name="TPanel" Owner="{D38D6C18-6058-4C62-B5C5-F7B0D9824E9B}">
+							<Child Name="TSghComboBox" Owner="{2F0DBD3B-39C5-4044-B07D-7B2AB4F66DD0}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

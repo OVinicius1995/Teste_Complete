@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{DE999607-50A9-4A4A-9B14-73BB467E5C5F}">
+	<children>
+		<child name="SGH" key="{C69B3B55-F81B-4969-B2CD-0ECE93621E18}" path="SGH\SGH.mds" />
+	</children>
+	<testItems key="{DDB2ADA7-64E3-4753-9654-03F22901A800}">
+		<children>
+			<testItem key="{C69B3B55-F81B-4969-B2CD-0ECE93621E18}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{DAD09BB4-BA49-49FB-ABEA-970D86447869}" />
+	<analysis key="{BA24AE29-FF44-490D-ADC7-A99B5F484E87}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

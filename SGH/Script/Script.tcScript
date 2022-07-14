@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="PageObjects">
+			<folder name="SGH_SPD">
+				<child name="SGHSPD_Login_Page" key="{AEFB22A0-872C-48C2-9E52-FB0C46DA4021}" path="SGHSPD_Login_Page.js" />
+				<child name="SGH_PEP" key="{3523F7E9-4E4E-4EDB-B426-851EDD24CCDE}" path="SGH_PEP.js" />
+				<child name="SGH_PERMISSOES" key="{98693369-FF11-4892-8712-275B3F03592A}" path="SGH_PERMISSOES.js" />
+				<child name="Variaveis_Globais" key="{D26DC5D5-DAD7-4386-AF66-D28B3142A7E5}" path="Variaveis_Globais.js" />
+			</folder>
+		</folder>
+		<folder name="Steps">
+			<folder name="SGH_SPD">
+				<child name="Steps_SGH_SPD_login" key="{459F65DE-A81C-413F-AFCC-2D9C1375FCFF}" path="Steps_SGH_SPD_login.js" />
+				<child name="Step_SGH_PEP" key="{F66532AD-2B72-46F4-BA1A-7A0948235143}" path="Step_SGH_PEP.js" />
+				<child name="Encerrar_teste_Steps" key="{E643C7A6-9669-432E-9E0B-4AD189B5A8A6}" path="Encerrar_teste_Steps.js" />
+				<child name="SGH_PERMISSOES_Steps" key="{905ED0DC-E74D-448C-A947-16BBCDA57EC2}" path="SGH_PERMISSOES_Steps.js" />
+				<child name="Testes" key="{4480CDA6-2FC8-4072-975C-F0306CA38B71}" path="Testes.js" />
+				<child name="Validar_permissoes_envio_STEPS" key="{9EB32C1C-780F-48A8-ABCA-71CE45EA5C3A}" path="Validar_permissoes_envio_STEPS.js" />
+				<child name="Criar_Nova_NC_Steps" key="{4FEB81E4-E1D7-4C34-806A-6474EC230D6C}" path="Criar_Nova_NC_Steps.js" />
+			</folder>
+		</folder>
+		<folder name="Feature">
+			<child name="SGH_SPD_LOGIN" key="{32BD275D-8D98-4BB2-B934-8A199DB0B47B}" path="SGH_SPD_LOGIN.js" />
+		</folder>
+	</children>
+</Root>

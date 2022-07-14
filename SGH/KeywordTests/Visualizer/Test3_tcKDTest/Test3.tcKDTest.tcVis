@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4E6C1EC2-81C9-475A-8905-274595E81314}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44755.8438194444" objectName="Aliases.sghpep.PrFormPadrao_10.TScrollBox.TPanel.TPanel.TSghComboBox" objectLeft="79" objectTop="167" objectRight="197" objectBottom="189" clickPointX="132" clickPointY="179" imageFileName="tcvi1984782953174521.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44755.8438310185" objectName="Aliases.sghpep.PrFormPadrao_10.TScrollBox.TPanel.TPanel.TSghComboBox" objectLeft="79" objectTop="167" objectRight="197" objectBottom="189" clickPointX="65" clickPointY="-59" imageFileName="tcvi1984784140174522.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

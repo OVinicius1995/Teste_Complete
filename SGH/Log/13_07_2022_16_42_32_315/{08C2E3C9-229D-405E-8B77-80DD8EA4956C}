@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="27"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="13"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="167"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 6).Window(&quot;TSghComboBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="object right" type="I" value="131"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8216017014"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object bottom" type="I" value="189"/>
+					<Prp name="click point y" type="I" value="178"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="72"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6966044792"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (59, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 6).Window(&quot;TSghComboBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="21"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="954"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="167"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 1).Window(&quot;TSghEdit&quot;, &quot;0&quot;, 1)"/>
+					<Prp name="object right" type="I" value="1028"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8216785185"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object bottom" type="I" value="188"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6966800231"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'555' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 1).Window(&quot;TSghEdit&quot;, &quot;0&quot;, 1)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="27"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4FEB81E4-E1D7-4C34-806A-6474EC230D6C}"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="13"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="167"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 6).Window(&quot;TSghComboBox&quot;, &quot;&quot;, 1)"/>
+					<Prp name="object right" type="I" value="131"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8216417245"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object bottom" type="I" value="189"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6966425694"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'Inq' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 21).Window(&quot;TPanel&quot;, &quot;&quot;, 6).Window(&quot;TSghComboBox&quot;, &quot;&quot;, 1)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="24"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1180"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="606"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;PrNotificacaoCompulsoriaHistorico&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnFechar&quot;)"/>
+					<Prp name="object right" type="I" value="1320"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.821272963"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="641"/>
+					<Prp name="click point y" type="I" value="623"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="1250"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6962739236"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (70, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrNotificacaoCompulsoriaHistorico&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnFechar&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="cria_nc"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="16"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="51"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;FSghBrowseView&quot;).VCLObject(&quot;GroupBox1&quot;).VCLObject(&quot;edtLocalizar&quot;)"/>
+					<Prp name="object right" type="I" value="675"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8214910995"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object bottom" type="I" value="72"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6965259375"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="'TUMORLET' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;FSghBrowseView&quot;).VCLObject(&quot;GroupBox1&quot;).VCLObject(&quot;edtLocalizar&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="15"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44755.6968347685"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="27"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="789"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="604"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;PrNotificacaoCompulsoriaPendencias&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnNotificarSemCid&quot;)"/>
+					<Prp name="object right" type="I" value="954"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8214489468"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="639"/>
+					<Prp name="click point y" type="I" value="621"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="871"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6964506481"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (82, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrNotificacaoCompulsoriaPendencias&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnNotificarSemCid&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="12"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44755.6968339931"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&lt;br /&gt;Tested object:&lt;br /&gt;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;PrFormPadrao&quot;).Window(&quot;TScrollBox&quot;, &quot;&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 20).Window(&quot;TPanel&quot;, &quot;&quot;, 2)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class 'TSghEdit', window caption '0' and index 1. See Details for additional information."/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="189"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases.sghpep.VCLObject(&quot;FSghBrowseView&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnOk&quot;)"/>
+					<Prp name="object right" type="I" value="314"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44755.8215622338"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object bottom" type="I" value="358"/>
+					<Prp name="click point y" type="I" value="340"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="251"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44755.6965628704"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (62, 17) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;sghpep&quot;).VCLObject(&quot;FSghBrowseView&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;btnOk&quot;)"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="18"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

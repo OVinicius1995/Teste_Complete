@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6839915278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3E92C968-3D26-46F9-9B84-623CE0D6A1C1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [SGH_SPD_LOGIN\SGHCT01_Login]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_24_56_868\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6859196991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CBC91BFF-D2BB-4426-B524-9AA1F7BE930E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Step_SGH_PEP\Abrir_PEP]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_27_43_462\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6894457523"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DAEAB058-D5F5-45F1-9DF1-B172B4E62A6A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Step_SGH_PEP\Abrir_PEP]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_32_48_113\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6913458565"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{54096C34-EDF6-4DBD-A112-6DF6E034A15B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Step_SGH_PEP\Abrir_PEP]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_35_32_282\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6956979745"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8D712B28-5832-45C7-ADC2-0D877DC8089A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_41_48_305\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6962073495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6C9C09E7-1777-4C47-9AFB-ACF003DE7F06}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_42_32_315\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6981602199"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BC630783-F0E4-437D-BE18-EC4845373067}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_45_21_43\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.6993749653"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{40D3E17E-7D85-432E-B7F5-2635DBB9CD20}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_47_05_997\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7008353009"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6DA24CAB-46F2-4458-B7C7-6B2C07D47653}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_49_12_170\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7019694907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{47BFAFBD-22B9-41DE-847C-6D61F0D80227}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_50_50_164\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7032696412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A864A752-1B74-40B3-B249-5361AC9F1FB4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_52_42_497\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7051036806"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0B7CCFC1-EF66-4AF8-9CAD-BB552FC0B00C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_55_20_958\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7070092824"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E8C47CD1-6B21-4015-895F-25C3DAC0B2BD}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Step_SGH_PEP\Abrir_PEP]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_58_05_602\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7072958796"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{016A8394-71F1-4CEF-8412-66B106D0A07B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_16_58_30_364\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7095927894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{581C6965-4F1F-4889-A775-8FBA21A35FF2}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_01_48_817\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7111691204"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{22B13F4E-8087-43FA-91FC-0CC6F941350E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_04_05_12\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.711617662"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FF9229F6-ADB7-4392-A2A8-332E6ED0758D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_04_43_766\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7149339352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ADD7FDC4-760E-425A-AC11-287BD58F632E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_09_30_292\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.715578912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8ABC93E8-A016-4145-AF24-6CA514F373F8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_10_26_18\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7163002315"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F1DE11F5-FBD5-4430-87BE-CCA1929002D4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_11_28_340\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7165615394"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{74090A8F-0E5C-4EC1-A76C-182E1232CD03}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_11_50_917\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7178916551"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B4E8583D-5A92-4B10-8CF3-1BB77CB46697}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Testes\Test1]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_13_45_839\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7184150463"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A8E041C8-184A-48E1-9929-5937E79D1344}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_14_31_60\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7218704167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3D9CE0E8-C2BA-4643-9248-CB30BCC3CEFC}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_19_29_604\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7225244792"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{44646A22-C57F-4D02-9AA0-9AF5C9C939D1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_20_26_115\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7265183565"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{48399CA5-81D7-4C83-8438-1A70662B1B37}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_26_11_186\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7311848032"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BD782E69-3A29-4E7D-9889-34EEEDFF6D16}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_32_54_367\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7317498843"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1D521897-2E8D-43BC-AEDB-B4B9BBEC70B7}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_33_43_190\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7393646991"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5AA2D710-E898-4B4E-A3A1-65BD7B0BAC73}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_44_41_110\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7396919792"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E99AC19D-9013-47D9-8DAD-F8C124C82198}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_45_09_387\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7402666319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{482EB4C1-5EB0-4F20-848C-921AC62E6051}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_45_59_37\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7442237963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9E96B3A6-6064-4803-9967-0B532BD23D4E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_51_40_936\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7447428935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{539226D8-3AE3-46D9-A9E4-08BFA88BDAE3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_52_25_786\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7454769444"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{398ABFD6-9967-4753-9F5F-B04213D8AFD1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_17_53_29_208\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7512698727"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3D50E543-8012-479C-BBE6-0C2B0E0ED344}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_18_01_49_717\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7526087384"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5D10D7BC-B11D-467B-9A89-CA76F5246A48}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_18_03_45_395\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44755.7605081829"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0317D4CD-AA1A-4264-84A7-D1C44ACC1AB3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Criar_Nova_NC_Steps\cria_nc]"/>
+				<Prp name="relpath" type="S" value="13_07_2022_18_15_07_907\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
